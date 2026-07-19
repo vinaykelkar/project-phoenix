@@ -1,0 +1,29 @@
+# 19-07-2026
+
+## Today's Goal
+
+INstall Pre-requisites before I start with project phoenix
+
+## What I Learned
+
+Understood about postman and bruno and dbweaver
+
+## Problems Solved
+
+1.Created template / foundation of how this journey will go.
+
+## Mistakes
+
+NA
+
+## Interview Takeaways
+
+NA
+
+## Git Commit
+
+...
+
+## Tomorrow's Goal
+
+...
