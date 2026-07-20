@@ -1,0 +1,40 @@
+# 20-07-2026
+
+## Today's Goal
+
+Kickstart with basics of Python
+
+## What I Learned
+
+1. How Python Interprets with Computer and runs the code from .py file 
+-> (Python hello.py -> OS -> Find python.exe -> start python interpreter -> read code -> compile internally -> read line by line -> 
+print() -> OS -> terminal window)
+
+2. How to undo git add ? 
+-> git restore --staged <filepath with filename>
+
+3. Print ==== via variable 
+line = "=" * 36 
+
+## Problems Solved
+
+1.Created template / foundation of how this journey will go.
+
+## Mistakes
+
+Taking input from user, make sure it is meaningful. For example, typing down age, make sure it is converted to number data type. 
+
+## Interview Takeaways
+
+What is Python and why it is Popular?
+What happens when you execute a Python file?
+What does input() return?
+What is DRY principle?
+
+## Git Commit
+
+feature/day001-python-basics -> feature/day001-python-basics
+
+## Tomorrow's Goal
+
+Day 02 for python basics to be continued
