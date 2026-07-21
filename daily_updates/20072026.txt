@@ -18,7 +18,7 @@ line = "=" * 36
 
 ## Problems Solved
 
-1.Created template / foundation of how this journey will go.
+Learnt how to take input from user in Python
 
 ## Mistakes
 
@@ -37,4 +37,4 @@ feature/day001-python-basics -> feature/day001-python-basics
 
 ## Tomorrow's Goal
 
-Day 02 for python basics to be continued
+Day 02 Variables,data types and type conversion
