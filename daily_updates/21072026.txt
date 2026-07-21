@@ -1,0 +1,31 @@
+# 21-07-2026
+
+## Today's Goal
+
+Kickstart with basics of Python
+
+## What I Learned
+
+1. Python data types and type conversion
+
+## Problems Solved
+
+Learnt how to perform type conversion in Python
+
+## Mistakes
+
+Taking input from user, make sure it is meaningful. For example, typing down age, make sure it is converted to number data type and predicting age 
+after certain years.  
+
+## Interview Takeaways
+
+What is type conversion? 
+What is Type error? 
+
+## Git Commit
+
+feature/day001-python-basics -> feature/day001-python-basics
+
+## Tomorrow's Goal
+
+Day 003: Operators and Expressions
