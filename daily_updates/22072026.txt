@@ -1,0 +1,30 @@
+# 22-07-2026
+
+## Today's Goal
+
+Operators
+
+## What I Learned
+
+Different arithmetic and logical operators
+
+## Problems Solved
+
+Learnt when to use float and when to use int
+
+## Mistakes
+
+NA  
+
+## Interview Takeaways
+
+When to use float and when to use int? (Amazon electronics items - int, big basket grocery - float)
+how to avoid operator precedence?  
+
+## Git Commit
+
+feature/day003-operators
+
+## Tomorrow's Goal
+
+Day 004: Conditional statements
