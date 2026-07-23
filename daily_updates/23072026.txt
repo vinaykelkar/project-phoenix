@@ -1,0 +1,31 @@
+# 23-07-2026
+
+## Today's Goal
+
+Conditional Statements
+
+## What I Learned
+
+if, else and elif statements and control flow
+
+## Problems Solved
+
+Understanding how decision making works using conditional statements
+
+## Mistakes
+
+NA  
+
+## Interview Takeaways
+
+What do you mean by Falsy and Truthy values?
+Can multiple if statements be executed if written line by line? 
+
+
+## Git Commit
+
+feature/day004-conditional-statements
+
+## Tomorrow's Goal
+
+Day 005: Open minded coding exercises
