@@ -1,0 +1,31 @@
+# 27-07-2026
+
+## Today's Goal
+
+Logical Operators
+
+## What I Learned
+
+if, else and elif statements and control flow and understand AND / OR conditions
+
+## Problems Solved
+
+Movie Theatre app to give ticket based on age
+
+## Mistakes
+
+Print -> Customer name insrted inside if/elif condition which i couldhave written prior to if started to comply with DRY principle.
+
+## Interview Takeaways
+
+What do you mean by comparison chaining?
+Can else appear without if?
+
+
+## Git Commit
+
+feature/day005-logical-operators
+
+## Tomorrow's Goal
+
+Day 006: Nested If
