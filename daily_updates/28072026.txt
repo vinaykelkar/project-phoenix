@@ -1,0 +1,30 @@
+# 28-07-2026
+
+## Today's Goal
+
+Nested If
+
+## What I Learned
+
+if inside if statements
+
+## Problems Solved
+
+ATM withdrawal amount
+
+## Mistakes
+
+Print -> Customer name insrted inside if/elif condition which i couldhave written prior to if started to comply with DRY principle.
+
+## Interview Takeaways
+
+Can input be negative?
+can user enter anything random as withdrawal amount?
+
+## Git Commit
+
+feature/day006-nested-if
+
+## Tomorrow's Goal
+
+Day 007: problem solving and software engineering.
