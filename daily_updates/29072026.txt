@@ -1,0 +1,30 @@
+# 29-07-2026
+
+## Today's Goal
+
+Problem Solving without any help or hints
+
+## What I Learned
+
+DRY principle importance, naming convetion importance
+
+## Problems Solved
+
+Online discount engine
+
+## Mistakes
+
+Need to practice the logic so that DRY principle can be adhered to
+
+## Interview Takeaways
+
+difference between if and elif?
+how to handle case sensitive user inputs?
+
+## Git Commit
+
+feature/day007-discount-engine
+
+## Tomorrow's Goal
+
+Day 008 : Problem solving will continue with different projects
