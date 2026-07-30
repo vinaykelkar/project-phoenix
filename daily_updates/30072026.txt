@@ -1,0 +1,37 @@
+# 30-07-2026
+
+## Today's Goal
+
+Input Validation & Decision Making
+
+## What I Learned
+
+Clear thinking
+Good variable names
+Correct business logic
+Validation before calculation
+Reduced duplication
+Readable code
+
+## Problems Solved
+
+EMployee Bonus calculator
+
+## Mistakes
+
+Namign convetion for variables can be meaningful
+
+## Interview Takeaways
+
+importance of dry principle 
+difference between if if and if elif
+type conversion or wrapping in one line 
+always correct conditions due to incorrectly placed OR
+
+## Git Commit
+
+feature/day008-employee-bonus-calculator
+
+## Tomorrow's Goal
+
+Day 009 : Problem solving will continue with different projects
