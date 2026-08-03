@@ -1,0 +1,30 @@
+# 04-08-2026
+
+## Today's Goal
+
+Decision Making + Arithmetic + Business Rules
+
+## What I Learned
+
+input,process,output
+
+## Problems Solved
+
+Mobile Recharge Billing System.
+
+## Mistakes
+
+Need to keep practicing coding so i get better at improving DRY principle
+
+## Interview Takeaways
+
+handling different customer types? is list better or dictionary?
+how to handle edge cases?
+
+## Git Commit
+
+feature/day009-mobile-recharge-billing-system
+
+## Tomorrow's Goal
+
+Day 10: problem solving and software engineering continued.
