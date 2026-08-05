@@ -1,0 +1,29 @@
+# 05-08-2026
+
+## Today's Goal
+
+Decision Making + Arithmetic + Business Rules
+
+## What I Learned
+
+input,process,output,list of dictionary and for loop through list of dictionary
+
+## Problems Solved
+
+Utility billing system
+
+## Mistakes
+Need to keep practicing coding so i get better at improving DRY principle -> Try to reduce repetition of code
+
+## Interview Takeaways
+
+handling different customer types? is list better or dictionary?
+how to handle edge cases? 
+
+## Git Commit
+
+feature/day010-utility-billing-system
+
+## Tomorrow's Goal
+
+Day 11: problem solving and software engineering continued.
