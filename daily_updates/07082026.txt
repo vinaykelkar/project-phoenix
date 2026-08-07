@@ -1,0 +1,35 @@
+# 07-08-2026
+
+## Today's Goal
+
+Build a loan eligibility system using multiple independent business rules and an override condition.
+
+## What I Learned
+
+Boundary value validation using min inclusive and max inclusive flags
+Not every business rule should be forced into the same implementation pattern. Choose the data structure an
+
+## Problems Solved
+
+Built a employee salary processing system
+
+## Mistakes
+- Incorrect bonus percentage for employees with more than 5 years of service.
+- Boundary condition at exactly 5 years was incorrect.
+- Initially assumed one generic boundary comparison would work for all business rules.
+- Used separate department validation list despite already having department allowance data.
+
+## Interview Takeaways
+
+Where should business rules live as applications scale (code vs database)?
+Time complexity of iterating over multiple business-rule collections.
+How would this design change for processing one million employees?
+When should dictionaries replace loops for direct lookups?
+
+## Git Commit
+
+feature/day012-employee-salary-processing-system
+
+## Tomorrow's Goal
+
+Day 013 - We'll move one step closer to real-world applications by working with searching, filtering, and record selection while continuing to strengthen Python fundamentals.
