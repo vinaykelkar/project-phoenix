@@ -1,0 +1,36 @@
+# 11-08-2026
+
+## Today's Goal
+
+Learn how to search through a collection of records, distinguish search success from transaction success, 
+
+## What I Learned
+
+Boundary value validation using min inclusive and max inclusive flags
+Not every business rule should be forced into the same implementation pattern. Choose the data structure an
+
+## Problems Solved
+
+Built a Product Inventory Search System that searches by Product ID, validates requested quantity, handles out-of-stock and insufficient-stock scenarios, calculates purchase cost, and determines remaining inventory
+
+## Mistakes
+- product_found was updated only after successful purchase instead of immediately when a valid Product ID was found.
+- Search continued after a matching product was already found in some failure scenarios.
+- Quantity 0 was initially treated as valid.
+- product_found was modeled as a counter rather than a Boolean state.
+
+
+## Interview Takeaways
+
+If there are N products, what is the worst-case time complexity of your current Product ID search? You haven't formally studied Big-O yet, so reason it out rather than memorizing notation.
+If Product IDs are guaranteed to be unique, what Python data structure might let you find a product more directly than looping through the entire list?
+Concurrent inventory updates can create race conditions? If yes, explain how to tackle?
+Why unique-key searches should stop after the first match.
+
+## Git Commit
+
+feature/day013-product-inventory-searc-system
+
+## Tomorrow's Goal
+
+Day 014 - Continue strengthening collections and record-processing logic before the first 7-day Engineering Challenge.
