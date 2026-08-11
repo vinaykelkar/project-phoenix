@@ -1,0 +1,52 @@
+# 11-08-2026
+
+## Today's Goal
+
+Learn filtering: finding and storing ALL records that satisfy multiple conditions.
+
+## What I Learned
+
+Search and filtering have different termination conditions:
+Search for one unique record → stop after finding it.
+Filter for all matching records → inspect the complete collection.
+
+
+Resource	                        Approach A: Filter in Python	                                   Approach B: Filter in Oracle
+Database processing	                Oracle mostly retrieves a huge dataset	                           Oracle retrieves and filters
+Network transfer	                10 million rows travel	                                           Only matching rows travel
+Python memory	                    Python may need to hold/process huge result	                       Python handles only matching rows
+Python CPU	                        Python evaluates millions of conditions	                           Oracle does filtering;Python does less work
+
+## Problems Solved
+
+Built an Employee Record Filter System that validates department and salary, traverses employee records, s
+
+## Mistakes
+- Initially maintained matched_count separately.
+- Replaced it with len(matched_result_employees) as the single source of truth.
+- Removed unnecessary else: continue.
+- Improved variable naming to reflect the actual data structure.
+- Reinforced why break must NOT be used when all matches are required.
+
+
+## Interview Takeaways
+
+- Full filtering over N records is O(N).
+- Storing M matches requires O(M) result space.
+- Data-structure and algorithm choices matter as datasets grow.
+- With large database datasets, filter in the database rather than transferring everything into Python.
+- Indexes can accelerate database access, but index design depends on actual query patterns.
+- Think about CPU, memory, network transfer and storage/database work separately when evaluating architecture.
+• Search vs filter and their different stopping conditions.
+• Why unnecessary state such as matched_count can create inconsistency.
+• Why storing complete records preserves flexibility for later processing.
+• How algorithm behaviour changes when N becomes very large.
+• Database-side filtering reduces network transfer and application-side resource consumption.
+
+## Git Commit
+
+feature/day014-employee-multiple-record-filter-system
+
+## Tomorrow's Goal
+
+Day 015 - Continue strengthening collections and record-processing logic before the first 7-day Engineering Challenge.
