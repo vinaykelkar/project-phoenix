@@ -1,0 +1,48 @@
+# 13-08-2026
+
+## Today's Goal
+
+Learn direct dictionary lookup using a unique business identifier as the dictionary key instead of sequentially searching a list.
+
+## What I Learned
+
+Nested dictionaries
+Direct key lookup
+Dictionary membership using in / not in
+Unique keys
+KeyError
+Direct lookup vs sequential search
+Choosing data structures based on access pattern
+Introduction to hashing - Hashing — 
+=> A technique that converts a key into a hash value used to quickly determine where its associated data is stored, enabling fast dictionary lookups.
+List search: O(n)
+Dictionary key lookup: O(1) average
+
+## Problems Solved
+
+Built an Employee Directory Lookup System where 
+Employee ID directly retrieves the employee record and salary determines JUNIOR, MID LEVEL, or SENIOR classification.
+
+## Mistakes
+No significant logical bug in submitted code.
+Learned that storing employees[emp_id] in a variable can reduce repeated access and improve readability.
+Refined the distinction between duplicate dictionary keys and duplicate values.
+
+
+## Interview Takeaways
+
+FAANG Q1: Why is dictionary key lookup generally O(1) average while sequential list search is O(n)?
+
+FAANG Q2: If dictionaries provide faster key lookup, why wouldn't you use dictionaries for every collection?
+
+FAANG Q3: How would you design a system that needs efficient lookup both by unique Employee ID and by Department?
+
+That last question is deliberately left unanswered. As your data structures/database knowledge develops, you'll eventually have several ways of solving it.
+
+## Git Commit
+
+feature/day015-dictionary-key-based-lookup
+
+## Tomorrow's Goal
+
+Day 016 - Dictionary Mutation — Add, Update & Delete Records
