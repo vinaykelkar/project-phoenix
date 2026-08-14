@@ -1,0 +1,55 @@
+# 14-08-2026
+
+## Today's Goal
+
+Learn dictionary state mutation through CRUD-style employee management.
+
+## What I Learned
+
+- CRUD: Create, Read, Update, Delete
+- Dictionary mutation
+- Nested dictionary updates
+- pop()
+- Membership checks with in / not in
+- Validation must happen before mutating application state. Direct dictionary access makes CRUD operations 
+- Boolean operation-state flags
+- Data integrity
+- Hashing
+- Average O(1) dictionary lookup / membership / deletion
+
+## Problems Solved
+
+Built an Employee Directory Lookup System where 
+Employee ID directly retrieves the employee record and salary determines JUNIOR, MID LEVEL, or SENIOR classification.
+
+## Mistakes
+- UPDATE initially allowed invalid negative salary.
+- Invalid operations initially asked for Employee ID unnecessarily.
+- Improved control flow so only valid operations request operation-specific inputs.
+- Verified mutation only after successful validation.
+
+
+## Interview Takeaways
+
+• Difference between replacing an entire nested record and updating one field.
+• Why duplicate keys can silently overwrite data.
+• Why validation must precede mutation.
+• Why state flags can centralize post-operation behavior.
+• Why persistent systems require a database.
+• How concurrent update/delete operations can create consistency problems.
+
+• Difference between replacing an entire nested record and updating one field.
+• Why duplicate keys can silently overwrite data.
+• Why validation must precede mutation.
+• Why state flags can centralize post-operation behavior.
+• Why persistent systems require a database.
+• How concurrent update/delete operations can create consistency problems.
+
+
+## Git Commit
+
+feature/day016-emp-directory-management-crud
+
+## Tomorrow's Goal
+
+Day 017 Goal — Functions: Turning Repeated Logic into Reusable Code
