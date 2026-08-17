@@ -1,0 +1,56 @@
+# 18-08-2026
+
+## Today's Goal
+
+Functions: Turn validation and transaction logic into reusable units of behavior.
+
+## What I Learned
+
+- Function definition
+- Function parameters
+- Function arguments
+- Function calls
+- return values
+- Boolean-returning validation functions
+- None
+- Reusable logic
+- Function responsibility
+- Main execution flow
+- State mutation inside functions
+- Global dependencies
+
+## Problems Solved
+
+Built a Banking Transaction System supporting DEPOSIT and WITHDRAW using dedicated functions and a reusable validation function.
+
+
+## Mistakes
+- Initial version kept validation directly in the main execution flow.
+- Refactored validation into validate().
+- Initially passed three arguments to functions expecting only two parameters.
+- Learned that a function without an explicit return still returns None.
+- Clarified that return stops the function, not necessarily the entire Python program.
+
+
+## Interview Takeaways
+
+• Parameter vs argument.
+• print() vs return.
+• return immediately terminates the current function invocation.
+• Functions without explicit return return None.
+• Validation before state mutation.
+• Why global dependencies reduce testability and reusability.
+• Why transactional systems require atomic state changes.
+
+- Hidden global dependencies make functions harder to test and reuse.
+- Large transaction workloads should be represented as data and processed through reusable functions rather than manually duplicated calls.
+- Multi-step financial operations require consistency: either all related state changes succeed or the operation must be rolled back.
+- This leads toward database transactions and atomicity.
+
+## Git Commit
+
+feature/day017-banking-transaction
+
+## Tomorrow's Goal
+
+Day 018 Goal — Function Return Values: Make Functions Calculate and Return Data Instead of Only Printing It
