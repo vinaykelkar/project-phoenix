@@ -1,0 +1,56 @@
+# 18-08-2026_Continued_Part_2
+
+## Today's Goal
+
+Function Composition: Build a workflow where multiple functions pass returned values into subsequent calculation stages.
+
+## What I Learned
+
+- Function composition
+- Multiple return values
+- Tuple-style unpacking into variables
+- Function pipelines
+- Dependency reduction
+- Pure-function thinking
+- Configuration vs calculation
+- Direct dictionary lookup
+- Boundary-based business rules
+- Reusable calculation functions
+
+## Problems Solved
+
+Built an E-Commerce Order Pricing Engine
+
+
+## Mistakes
+- Initial customer discount mapping had REGULAR/PREMIUM values reversed.
+- ₹50,000 boundary initially returned 5% instead of 10%.
+- Refactored calculate_subtotal() to receive price directly instead of depending on the global products dictionary.
+- Clarified multiple return values and unpacking.
+- Reinforced that None flowing into arithmetic causes TypeError.
+
+
+
+## Interview Takeaways
+
+• Function composition = chaining returned values through multiple functions.
+• Multiple values can be returned and unpacked into separate variables.
+• None in arithmetic can cause TypeError.
+• Separate base and customer discounts because they are independent responsibilities.
+• Prefer explicit parameters over hidden global dependencies.
+• Configuration changes should ideally not require calculation-code changes.
+
+
+- Pure functions are easier to test, reuse, and reason about.
+- Separate configuration retrieval from stable calculation logic.
+- Processing N independent orders generally requires O(N) work.
+- Large-scale design requires thinking separately about algorithm structure, data volume, network, memory, and persistence.
+- Database-backed configuration should not force unrelated calculation functions to change.
+
+## Git Commit
+
+feature/day019-ecommerece-billing-order
+
+## Tomorrow's Goal
+
+Day 020 Goal — Functions + Collections: Process Multiple Records Through a Reusable Function Pipeline
