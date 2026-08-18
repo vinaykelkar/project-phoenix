@@ -1,0 +1,56 @@
+# 18-08-2026_Continued_Part_1
+
+## Today's Goal
+
+Function Return Values: Make functions calculate and return data instead of only printing it.
+
+## What I Learned
+
+- Function return values
+- Receiving returned values in variables
+- Function composition
+- None
+- Explicit vs implicit return
+- Calculation functions
+- Pure-function thinking
+- Function dependencies
+- Separation of responsibilities
+- Reusability
+- Unit-testability
+- O(N) batch processing
+
+## Problems Solved
+
+Built an Employee Bonus Calculator where one function determines the applicable bonus percentage and another calculates and returns the monetary bonus amount.
+
+
+## Mistakes
+- Initial bonus range did not handle experience = 0.
+- Learned that a function reaching the end without an explicit return returns None.
+- Identified that None flowing into arithmetic can cause TypeError.
+- Recognized that invalid business data should ideally be validated rather than silently converted into a legitimate result.
+- Discussed reducing function dependency on the global employees dictionary.
+
+
+## Interview Takeaways
+
+• print() displays a value; return communicates a value to the caller.
+• Parameters belong to the function definition; arguments are supplied during the call.
+• A function without explicit return returns None.
+• Invalid data should be distinguished from a valid business result such as 0%.
+• Separate rule selection from mathematical calculation.
+• Prefer functions that receive the exact data they need instead of depending unnecessarily on globals.
+
+- Functions with explicit inputs and outputs are easier to test and reason about.
+- Hidden global dependencies reduce reusability and testability.
+- Pure calculation functions are generally easier to test than functions that mutate external state.
+- Processing N independent records generally requires O(N) work.
+- For very large datasets, consider where computation should happen instead of automatically moving all data into Python.
+
+## Git Commit
+
+feature/day018-employee-bonus-calculator
+
+## Tomorrow's Goal
+
+Day 019 Goal — Function Composition: Build a Workflow Where Multiple Functions Pass Results to One Another
