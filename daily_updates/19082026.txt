@@ -1,0 +1,59 @@
+# 19-08-2026
+
+## Today's Goal
+
+Functions + Collections: Apply one reusable record-processing pipeline across multiple records.
+
+## What I Learned
+
+- Record-level processing
+- Collection-level processing
+- Function pipelines
+- Returning processed records
+- append()
+- copy()
+- Input data vs derived data
+- Avoiding unintended state mutation
+- Separation of responsibilities
+- Batch processing
+- O(N × R) complexity
+- Dictionary direct lookup and O(1) average access
+
+## Problems Solved
+
+Built an Employee Payroll Processing System that processes every employee through reusable functions 
+
+
+## Mistakes
+- Initial process_employee() processed the entire collection instead of one employee.
+- Refactored process_employee(emp) to handle exactly one record.
+- Initially process_employee() directly appended to a global result list.
+- Refactored it to return the processed record and let the caller append it.
+- Replaced unnecessarily complex rating boundaries with direct rating-to-bonus rules.
+- Discussed why silently treating invalid ratings as 0% can hide corrupt data.
+
+
+
+## Interview Takeaways
+
+• for e in employees gives e the current employee object, not an index.
+• Separate record-level logic from collection-level orchestration.
+• Return processed records instead of making processing functions mutate global output collections.
+• Copy source records when derived data should not mutate the original input.
+• Complexity with N employees and R rules is O(NR), not automatically O(N²).
+• Exact-key business rules are strong candidates for dictionary/hash-map lookup.
+
+
+- A loop inside another processing loop is not automatically O(N²); complexity depends on the size of each dimension.
+- N records × R rules gives O(NR).
+- Replacing an R-rule sequential search with an O(1) dictionary lookup can reduce overall processing toward O(N).
+- Large datasets should be considered in terms of database work, network transfer, application memory, CPU, batching and controlled concurrency.
+- Parallel processing is not automatically faster if downstream systems become the bottleneck.
+
+## Git Commit
+
+feature/day020-emp-payroll-system-pipeline
+
+## Tomorrow's Goal
+
+Day 021 Goal — Function Scope & Dependencies: Reduce Global State and Pass Data Explicitly
